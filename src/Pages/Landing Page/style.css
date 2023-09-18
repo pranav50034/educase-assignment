@@ -1,0 +1,28 @@
+.content {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 0 1em 2em;
+}
+
+.heading {
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin-bottom: .3em;
+    color: var(--black-);
+}
+
+.text {
+    font-size: 1.125rem;
+    color: var(--black-);
+    opacity: .6;
+    font-weight: 400;
+    margin-bottom: 1.2em;
+    width: 25ch;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: column;
+    gap: .5em
+}
