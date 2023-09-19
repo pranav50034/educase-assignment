@@ -12,7 +12,7 @@ const Profile = () => {
            </div>
            <div className="profile-section">
               <div className="img-div">
-                 <img style={{ width: "100px", aspect: 1 }} src={user} />
+                 <img alt='' style={{ width: "100px", aspect: 1 }} src={user} />
                  <div className="icon-div">
                     <AiFillCamera className="icon" />
                  </div>
