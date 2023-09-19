@@ -1,0 +1,121 @@
+.signup-content {
+    display: flex;
+    flex-direction: column;
+    padding: 2.5em 1.2em;
+    height: 100%;
+}
+
+.signup-heading {
+    width: 11ch;
+    margin-bottom: 1em;
+}
+
+.signup-form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-form .signup-label {
+    position: absolute;
+    font-size: .813rem;
+    color: var(--label-);
+    font-weight: 400;
+    width: 110px;
+    background-color: var(--bg-grey-);
+    padding-left: 4px;
+}
+
+.signup-form input {
+    padding: .9em 1em;
+    border: 1px solid var(--ol-grey-);
+    background-color: transparent;
+    border-radius: 6px;
+    margin-bottom: 1.6em;
+    color: var(--black-);
+    font-weight: 500;
+}
+
+.signup-form div p::after {
+    content: "*";
+    color: var(--orange-);
+}
+
+.signup-form input::placeholder {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: var(--bullet-grey-);
+}
+
+.signup-form label {
+    position: absolute;
+    font-weight: 500 !important;
+}
+
+.signup-form .signup-label::after {
+    content: "*";
+    color: var(--orange-)
+}
+
+.signup-form .signup-label:nth-child(9)::after {
+    content: "";
+}
+
+.signup-form .signup-label:nth-child(1) {
+    left: 10px;
+    top: -9px;
+}
+
+.signup-form .signup-label:nth-child(3) {
+    left: 10px;
+    top: 53px;
+}
+
+.signup-form .signup-label:nth-child(5) {
+    left: 10px;
+    top: 114px;
+}
+
+.signup-form .signup-label:nth-child(7) {
+    left: 10px;
+    top: 177px;
+}
+
+.signup-form .signup-label:nth-child(9) {
+    left: 10px;
+    top: 240px;
+}
+
+.signup-form div label {
+    position: relative;
+    font-weight: 400 !important;
+}
+
+.signup-form .radio-container {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin-left: .3em;
+    margin-top: .3em;
+}
+
+.radio-container input {
+    position: relative;
+    accent-color: var(--bullet-purple-);
+    transform: scale(1.9);
+    border: 1px solid var(--bullet-grey-);
+    border-radius: 50%;
+    outline: none;
+    top: 11px
+}
+
+.radio-container input[type="radio"]:checked {
+    border-color: green;
+    background-color: var(--bullet-purple-);
+}
+
+.signup-form button {
+    position: absolute;
+    width: 100%;
+    bottom: -10.9em;
+}

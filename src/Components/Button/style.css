@@ -15,3 +15,8 @@ button {
     background-color: var(--purple-);
 
 }
+
+.login-btn {
+    background-color: var(--ol-grey-);
+    color: var(--white-)
+}
