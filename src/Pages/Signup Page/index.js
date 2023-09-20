@@ -9,7 +9,7 @@ const Signup = () => {
   const navigate = useNavigate();
 
   const profileNav = () => {
-     navigate("/login");
+     navigate("/profile");
   };
 
   return (
