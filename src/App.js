@@ -8,7 +8,6 @@ import Profile from './Pages/Profile Page';
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
       <Routes>
         <Route path= "/" element={<Landing/>} />
         <Route path= "/login" element={<Login/>} />
